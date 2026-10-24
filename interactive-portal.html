@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" data-mode="dark" data-chakra="sacral" data-chakra-css="chakra-02-sacral-tantra.css" data-chakra-ux="ux_10">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tantric Unity &bull; 2-CoCreate — Sacred Relational Co-Creation Sanctuary</title>
+<link rel="stylesheet" href="evolve-unified-theme.css" />
+<link rel="stylesheet" href="chakra-02-sacral-tantra.css" />
+<script src="refineme-widget.js" defer></script>
+</head>
+<body class="ee-chakra-sacral-shell grain">
+<div class="chakra-bar" role="region" aria-label="7-Chakra Spectrum Theme Bar">
+  <span class="brand-tag">Tantric Unity // 2-CoCreate &middot; 02 Sacral Tantra Sanctuary (417 Hz)</span>
+  <div class="c-pills">
+    <button class="c-pill" data-set-chakra="root" onclick="document.documentElement.setAttribute('data-chakra','root')">01 Root</button>
+    <button class="c-pill active" data-set-chakra="sacral" onclick="document.documentElement.setAttribute('data-chakra','sacral')">02 Sacral (Tantra)</button>
+    <button class="c-pill" data-set-chakra="solar" onclick="document.documentElement.setAttribute('data-chakra','solar')">03 Solar</button>
+    <button class="c-pill" data-set-chakra="heart" onclick="document.documentElement.setAttribute('data-chakra','heart')">04 Heart</button>
+    <button class="c-pill" data-set-chakra="throat" onclick="document.documentElement.setAttribute('data-chakra','throat')">05 Throat</button>
+    <button class="c-pill" data-set-chakra="thirdeye" onclick="document.documentElement.setAttribute('data-chakra','thirdeye')">06 Third Eye</button>
+    <button class="c-pill" data-set-chakra="crown" onclick="document.documentElement.setAttribute('data-chakra','crown')">07 Crown</button>
+    <button class="c-pill" onclick="var d=document.documentElement;var m=d.getAttribute('data-mode')==='light'?'dark':'light';d.setAttribute('data-mode',m);d.setAttribute('data-theme',m)">Dark / Light</button>
+  </div>
+</div>
+
+<div class="wrap">
+  <main class="ee-walkthrough ee-chakra-sacral-walkthrough">
+    <div class="ee-chakra-sacral-card carved">
+      <span class="ee-chakra-sacral-kicker">02 SACRAL CHAKRA (SVADHISTHANA &middot; 417 HZ) &middot; STYLESHEET #10 (SVADHISTHANA 417 HZ TANTRIC MASTER STYLESHEET (V8.8)) &middot; UX TEMPLATE #10</span>
+      <h1 class="ee-chakra-sacral-title">Tantric Unity &bull; 2-CoCreate — Tantric Unity / 2-CoCreate Flagship Master Template (v8.8)</h1>
+      <p class="ee-chakra-sacral-lead">Complete production UX template automatically applied to Tantric Unity (tantricunity.org / 2cocreate.com) &mdash; Walk through the 3-step Guided Dyad Sanctuary below one calm step at a time.</p>
+
+      <div class="ee-step-rail ee-chakra-sacral-step-rail" role="tablist">
+        <button type="button" class="ee-step-btn ee-chakra-sacral-step-btn is-active" onclick="setTantraStep(1, this)">Step 01 &middot; Check In: Sovereign Nervous Systems</button>
+        <button type="button" class="ee-step-btn ee-chakra-sacral-step-btn" onclick="setTantraStep(2, this)">Step 02 &middot; Co-Regulate: Breath &amp; Presence</button>
+        <button type="button" class="ee-step-btn ee-chakra-sacral-step-btn" onclick="setTantraStep(3, this)">Step 03 &middot; Co-Create: Art, Love &amp; Service</button>
+      </div>
+
+      <section id="tantra-step-1" class="ee-step-panel">
+        <h2>Step 01 &middot; Check In: Sovereign Nervous Systems</h2>
+        <p class="dek">Before words, agendas, or plans, name how each body feels right now:</p>
+        <div class="ee-choice-grid ee-chakra-sacral-choice-grid">
+          <div class="ee-choice-card ee-chakra-sacral-choice-card is-selected">
+            <label><strong>Partner A Somatic State:</strong>
+              <select id="pa" onchange="updateRitualPreview()">
+                <option value="grounded">Grounded &amp; Open (Earth / Heart Coherence)</option>
+                <option value="electric">Creative &amp; High-Energy (Sacral / Solar Polarity)</option>
+                <option value="tender">Tender &amp; Needing Reassurance (Heart / Water)</option>
+                <option value="overwhelmed">Overstimulated &amp; Needing Slowness (Root Sanctuary)</option>
+              </select>
+            </label>
+          </div>
+          <div class="ee-choice-card ee-chakra-sacral-choice-card is-selected">
+            <label><strong>Partner B Somatic State:</strong>
+              <select id="pb" onchange="updateRitualPreview()">
+                <option value="tender">Tender &amp; Needing Reassurance (Heart / Water)</option>
+                <option value="grounded">Grounded &amp; Open (Earth / Heart Coherence)</option>
+                <option value="electric">Creative &amp; High-Energy (Sacral / Solar Polarity)</option>
+                <option value="overwhelmed">Overstimulated &amp; Needing Slowness (Root Sanctuary)</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="ee-transport">
+          <button type="button" class="ee-btn-hero ee-chakra-sacral-btn-hero" onclick="genDyadAndAdvance()">Continue to Step 02 &middot; Co-Regulate: Breath &amp; Presence -&gt;</button>
+        </div>
+      </section>
+
+      <section id="tantra-step-2" class="ee-step-panel" hidden>
+        <h2>Step 02 &middot; Co-Regulate: Breath &amp; Presence</h2>
+        <div id="dyad-out" class="card">
+          Place one hand on your own heart and one hand over your partner's heart; share 6 slow ocean breaths and one sentence of pure appreciation with zero advice.
+        </div>
+        <div class="ee-transport">
+          <button type="button" class="ee-btn-hero ee-chakra-sacral-btn-hero" onclick="setTantraStep(3, document.querySelectorAll('.ee-step-btn')[2])">Continue to Step 03 &middot; Co-Create: Art, Love &amp; Service -&gt;</button>
+          <button type="button" class="btn" onclick="setTantraStep(1, document.querySelectorAll('.ee-step-btn')[0])">Back to Step 01</button>
+        </div>
+      </section>
+
+      <section id="tantra-step-3" class="ee-step-panel" hidden>
+        <h2>Step 03 &middot; Co-Create: Art, Love &amp; Service</h2>
+        <div class="ee-choice-grid ee-chakra-sacral-choice-grid">
+          <div class="ee-choice-card ee-chakra-sacral-choice-card">
+            <strong>01 &middot; Sovereign Yes &amp; Sacred No</strong>
+            <p>Every boundary is celebrated as the container that makes deep trust and relaxation possible.</p>
+          </div>
+          <div class="ee-choice-card ee-chakra-sacral-choice-card">
+            <strong>02 &middot; Co-Regulation First</strong>
+            <p>Breath, posture, and soft eye contact precede problem-solving whenever emotions run high.</p>
+          </div>
+          <div class="ee-choice-card ee-chakra-sacral-choice-card">
+            <strong>03 &middot; Curiosity Over Projection</strong>
+            <p>Ask &ldquo;What is alive in you right now?&rdquo; and witness before assuming intent.</p>
+          </div>
+          <div class="ee-choice-card ee-chakra-sacral-choice-card">
+            <strong>04 &middot; Creative Polarity</strong>
+            <p>Channel shared life-force (Prana) into music, movement, healing, and tangible service.</p>
+          </div>
+        </div>
+        <div class="ee-transport">
+          <button type="button" class="ee-btn-hero ee-chakra-sacral-btn-hero" onclick="setTantraStep(1, document.querySelectorAll('.ee-step-btn')[0])">Start Fresh Dyad Check-In</button>
+        </div>
+      </section>
+
+      <details class="ee-drawer ee-chakra-sacral-drawer">
+        <summary>Active Sacral Tantra Stylesheet #10 &amp; UX Template #10 Specification (10 Stylesheets + 10 UX Templates)</summary>
+        <div class="card">
+          <p><strong>Active Stylesheet:</strong> <code>chakra-02-sacral-tantra.css</code> &mdash; Variant #10 (Svadhisthana 417 Hz Tantric Master Stylesheet (v8.8): Canvas <code>#090B10</code>, Surface <code>#131722</code>, Jewel Accent <code>#F97316</code>, Secondary <code>#EA580C</code>).</p>
+          <p><strong>Active UX Template:</strong> <code>chakra_02_sacral_ux_10.html</code> &mdash; #10 (Tantric Unity / 2-CoCreate Flagship Master Template (v8.8): Check In: Sovereign Nervous Systems -&gt; Co-Regulate: Breath &amp; Presence -&gt; Co-Create: Art, Love &amp; Service).</p>
+        </div>
+      </details>
+    </div>
+  </main>
+</div>
+
+<script>
+function setTantraStep(n, btn) {
+  [1, 2, 3].forEach(function(i) {
+    var p = document.getElementById('tantra-step-' + i);
+    if (p) p.hidden = (i !== n);
+  });
+  var btns = document.querySelectorAll('.ee-step-btn');
+  Array.prototype.forEach.call(btns, function(b) { b.classList.remove('is-active'); });
+  if (btn) btn.classList.add('is-active');
+}
+function updateRitualPreview() {
+  var a = document.getElementById('pa').value;
+  var b = document.getElementById('pb').value;
+  var map = {
+    overwhelmed: "Begin with 90 seconds of silent back-to-back breathing (zero words, zero demand) so both root and sacral centers feel held without pressure.",
+    tender: "Place one hand on your own heart and one hand over your partner's heart; share 6 slow breaths and one sentence of pure appreciation with zero advice.",
+    electric: "Stand facing each other, inhale up the spine for 4 counts, and speak one bold creative vision you want to build together this week.",
+    grounded: "Synchronize 6 slow ocean-breaths (Ujjayi) while maintaining soft eye contact, then ask: 'What would feel most nourishing in the next hour?'"
+  };
+  var pick = (a === 'overwhelmed' || b === 'overwhelmed') ? map.overwhelmed : (a === 'tender' || b === 'tender') ? map.tender : (a === 'electric' && b === 'electric') ? map.electric : map.grounded;
+  var out = document.getElementById('dyad-out');
+  if (out) out.innerHTML = "<strong>Recommended 3-Minute Sacral Co-Regulation Ritual:</strong> " + pick;
+}
+function genDyadAndAdvance() {
+  updateRitualPreview();
+  setTantraStep(2, document.querySelectorAll('.ee-step-btn')[1]);
+}
+</script>
+</body>
+</html>

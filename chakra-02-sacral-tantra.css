@@ -1,0 +1,261 @@
+/* ============================================================================
+   CHAKRA 02 (SVADHISTHANA · 417 Hz · 595 nm Sunset Coral & Crystal Lagoon) — STYLESHEET #10: SVADHISTHANA 417 HZ TANTRIC MASTER STYLESHEET (V8.8)
+   Purpose: Canonical Sacral Tantra master stylesheet automatically applied to Tantric Unity / 2-CoCreate and creative flow rooms | Skill Engine: Level 10 · WILD-CRAZY #10 SYNTHESIS: Brag + Hyperframes + Whisper + /tweak Sliders (#23-#25) (60fps Particle Vortex + /tweak Live Token Sliders + Brag Launch Composer + 8-Step Sequencer)
+   Vault Sacred Blueprint: 6 Petals (Bam · Bham · Mam · Yam · Ram · Lam) · 18 RPM Undulating Tidal Wave
+   Closed -> Open Evolution: Frozen Orange Slush -> Liquid Amber & Coral Waves
+   Governed by: evolve-design-and-css-law (v8.8) & SEVEN-DESIGN-SKILL-FRAMEWORKS-2026.md
+   - Pure Jewel-Grade Wavelengths over Midnight Carbon-Obsidian (#090B10) & Alabaster Ink (#F8FAFC)
+   - Calm Guided Step-by-Step Walkthrough UX (.ee-walkthrough, max-width: 840px)
+   - Calm 1px solid hairline borders (zero loud 3px/4px side stripes, zero inline styles, zero emojis)
+   ============================================================================ */
+
+:root,
+html,
+html[data-chakra="sacral"],
+html[data-theme="dark"][data-chakra="sacral"] {
+  color-scheme: dark;
+  --ee-canvas: #090B10;
+  --ee-canvas-alt: #0E1118;
+  --ee-surface: #131722;
+  --ee-surface-elevated: #131722;
+  --ee-surface-hover: #1A202E;
+  --ee-ink: #F8FAFC;
+  --ee-ink-soft: #CBD5E1;
+  --ee-ink-muted: #94A3B8;
+  --ee-vision-blue: #F97316;
+  --ee-vision-deep: #9A3412;
+  --ee-vision-sky: #FB923C;
+  --ee-copper: #EA580C;
+  --ee-copper-warm: #38BDF8;
+  --ee-heart-emerald: #10B981;
+  --ee-err: #EF4444;
+  --ee-hairline: rgba(248, 250, 252, 0.09);
+  --ee-hairline-strong: rgba(249, 115, 22, 0.38);
+  --chakra-active-key: "sacral";
+  --chakra-active-hz: "417 Hz";
+  --chakra-active-nm: "595 nm Sunset Coral & Crystal Lagoon";
+  --chakra-active-style: "10 - Svadhisthana 417 Hz Tantric Master Stylesheet (v8.8)";
+  --chakra-skill-engine: "Level 10 · WILD-CRAZY #10 SYNTHESIS: Brag + Hyperframes + Whisper + /tweak Sliders (#23-#25)";
+  --chakra-petals: "6";
+  --chakra-rpm: "18 RPM Undulating Tidal Wave";
+  --ee-spring: 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+  --ee-breath: 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+  --font-display: 'Instrument Serif', 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'Cascadia Code', Consolas, monospace;
+}
+
+html[data-theme="light"][data-chakra="sacral"] {
+  color-scheme: light;
+  --ee-canvas: #F8FAFC;
+  --ee-canvas-alt: #F1F5F9;
+  --ee-surface: #FFFFFF;
+  --ee-surface-elevated: #FFFFFF;
+  --ee-surface-hover: #F8FAFC;
+  --ee-ink: #0F172A;
+  --ee-ink-soft: #334155;
+  --ee-ink-muted: #64748B;
+  --ee-vision-blue: #EA580C;
+  --ee-vision-sky: #F97316;
+  --ee-copper: #F97316;
+  --ee-hairline: rgba(15, 23, 42, 0.10);
+  --ee-hairline-strong: rgba(249, 115, 22, 0.38);
+}
+
+/* --- 4 Somatic Luminance States (Tastemaker & Colour-as-Medicine) --- */
+html[data-chakra="sacral"][data-somatic="dissonant"] {
+  --ee-vision-blue: #94A3B8;
+  --ee-vision-sky: #CBD5E1;
+}
+html[data-chakra="sacral"][data-somatic="grounding"] {
+  --ee-vision-blue: #F97316;
+  --ee-vision-sky: #FB923C;
+}
+html[data-chakra="sacral"][data-somatic="healed"] {
+  --ee-vision-blue: #FB923C;
+  --ee-vision-sky: #38BDF8;
+}
+html[data-chakra="sacral"][data-somatic="transmuted"] {
+  --ee-vision-blue: #38BDF8;
+  --ee-vision-sky: #38BDF8;
+}
+
+/* --- Calm Guided Step-by-Step Walkthrough Primitives (SACRAL Tuning) --- */
+.ee-chakra-sacral-shell {
+  background-color: var(--ee-canvas);
+  color: var(--ee-ink);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  padding: clamp(18px, 3.5vw, 44px);
+}
+
+.ee-chakra-sacral-walkthrough {
+  max-width: 1400px;
+  width: 100%;
+  margin: 24px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ee-chakra-sacral-card {
+  background: var(--ee-surface-elevated);
+  border: 1px solid var(--ee-hairline);
+  border-radius: 14px;
+  padding: clamp(20px, 3vw, 30px);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.24),
+    0 8px 24px rgba(0, 0, 0, 0.20),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  transition: border-color var(--ee-spring), transform var(--ee-spring), background-color 0.2s ease;
+}
+
+.ee-chakra-sacral-card:hover {
+  border-color: var(--ee-hairline-strong);
+}
+
+.ee-chakra-sacral-kicker {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ee-vision-blue);
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+.ee-chakra-sacral-title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(1.85rem, 3vw, 2.75rem);
+  line-height: 1.08;
+  color: var(--ee-ink);
+  margin: 0 0 10px;
+}
+
+.ee-chakra-sacral-lead {
+  font-size: 1rem;
+  line-height: 1.62;
+  color: var(--ee-ink-soft);
+  max-width: 64ch;
+  margin: 0 0 18px;
+}
+
+.ee-chakra-sacral-step-rail {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.ee-chakra-sacral-step-btn {
+  appearance: none;
+  background: var(--ee-canvas-alt);
+  border: 1px solid var(--ee-hairline);
+  border-radius: 10px;
+  padding: 12px 14px;
+  color: var(--ee-ink-soft);
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  transition: all var(--ee-spring);
+}
+
+.ee-chakra-sacral-step-btn.is-active,
+.ee-chakra-sacral-step-btn:hover {
+  background: var(--ee-surface-elevated);
+  border-color: var(--ee-vision-blue);
+  color: var(--ee-ink);
+  transform: translateY(-1px);
+}
+
+.ee-chakra-sacral-choice-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 14px 0;
+}
+
+.ee-chakra-sacral-choice-card {
+  background: var(--ee-canvas-alt);
+  border: 1px solid var(--ee-hairline);
+  border-radius: 12px;
+  padding: 16px;
+  cursor: pointer;
+  text-align: left;
+  color: var(--ee-ink);
+  transition: border-color var(--ee-spring), transform var(--ee-spring), background-color 0.2s ease;
+}
+
+.ee-chakra-sacral-choice-card:hover,
+.ee-chakra-sacral-choice-card.is-selected {
+  border-color: var(--ee-vision-blue);
+  background: var(--ee-surface-hover);
+  transform: translateY(-2px);
+}
+
+.ee-chakra-sacral-btn-hero {
+  appearance: none;
+  background: var(--ee-vision-blue);
+  color: var(--ee-canvas);
+  border: 1px solid var(--ee-vision-blue);
+  border-radius: 8px;
+  padding: 11px 20px;
+  font-family: var(--font-sans);
+  font-size: 13.5px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform var(--ee-spring), filter 0.15s ease;
+}
+
+.ee-chakra-sacral-btn-hero:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+}
+
+.ee-chakra-sacral-drawer {
+  background: var(--ee-canvas-alt);
+  border: 1px solid var(--ee-hairline);
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-top: 12px;
+}
+
+.ee-chakra-sacral-drawer summary {
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--ee-ink-soft);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* --- MASTER-LEVEL 25-TOOL DESIGN OS & 8-REPO REPERTOIRE (v9.0) --- */
+:root {
+  --ee-tweak-font-scale: 1;
+  --ee-tweak-radius: 14px;
+  --ee-tweak-pad: 22px;
+  --ee-tweak-glow: 0.18;
+}
+
+.ee-chakra-sacral-card {
+  border-radius: var(--ee-tweak-radius, 14px);
+  padding: var(--ee-tweak-pad, 28px);
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.50), 0 0 36px rgba(56, 189, 248, var(--ee-tweak-glow, 0.12));
+}
+
+.ee-chakra-sacral-title {
+  font-size: calc(clamp(1.85rem, 3vw, 2.65rem) * var(--ee-tweak-font-scale, 1));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
